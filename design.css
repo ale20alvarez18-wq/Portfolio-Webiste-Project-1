@@ -163,3 +163,48 @@ nav a {
 .button-outline:hover {
     background-color: #263244;
 }
+
+/* 4. General section styles */
+
+.section {
+    padding: 50px 0;
+}
+
+.section-light {
+    background-color: #121e35;
+}
+
+.section>.container>p:not(.eyebrow) {
+    max-width: 850px;
+}
+
+
+/* 5. Skills section */
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.skill-card {
+    background-color: #1a2740;
+    padding: 25px;
+    border: 1px solid #2b3a55;
+    border-radius: 8px;
+}
+
+.skill-card h3 {
+    color: #93c5fd;
+    margin-bottom: 15px;
+}
+
+.skill-card p {
+    margin-bottom: 8px;
+}
+
+.skills-note {
+    margin-top: 25px;
+    color: #94a3b8;
+}
