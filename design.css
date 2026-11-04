@@ -313,3 +313,64 @@ textarea:focus {
     outline: 2px solid #93c5fd;
     border-color: #3b82f6;
 }
+
+/* 9. Footer */
+
+footer {
+    background-color: #080e1a;
+    color: #94a3b8;
+    text-align: center;
+    padding: 25px 0;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+}
+
+
+/* 10. Pantallas más grandes  */
+
+@media (min-width: 768px) {
+
+    h2 {
+        font-size: 32px;
+    }
+
+    .header-content {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    nav {
+        gap: 20px;
+    }
+
+    #hero {
+        padding: 100px 0;
+    }
+
+    #hero h1 {
+        font-size: 48px;
+    }
+
+    #hero h2 {
+        font-size: 24px;
+    }
+
+    .hero-buttons {
+        flex-direction: row;
+        align-items: stretch;
+        flex-wrap: wrap;
+    }
+
+    .section {
+        padding: 75px 0;
+    }
+
+    .skills-grid,
+    .projects-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
